@@ -1,7 +1,18 @@
-# mac操作
-
-[TOC]
-
+- [[#环境安装|环境安装]]
+	- [[#环境安装#安装protobuf，并支持go|安装protobuf，并支持go]]
+	- [[#环境安装#安装tig|安装tig]]
+	- [[#环境安装#安装gitui|安装gitui]]
+	- [[#环境安装#取消更新提示红点|取消更新提示红点]]
+	- [[#环境安装#安装python|安装python]]
+	- [[#环境安装#卸载python|卸载python]]
+	- [[#环境安装#修改ideavim配置|修改ideavim配置]]
+	- [[#环境安装#spacevim下修改vim的快捷键|spacevim下修改vim的快捷键]]
+	- [[#环境安装#spacevim 解决`Tagbar: Ctags doesn't seem to be Exuberant Ctags!`|spacevim 解决`Tagbar: Ctags doesn't seem to be Exuberant Ctags!`]]
+	- [[#环境安装#spacevim 修改默认的背景色为纯黑色|spacevim 修改默认的背景色为纯黑色]]
+	- [[#环境安装#修改brew为清华源|修改brew为清华源]]
+		- [[#修改brew为清华源#所有其他源列表|所有其他源列表]]
+	- [[#环境安装#重置为官方源|重置为官方源]]
+- [[#安装gitbook|安装gitbook]]
 # 环境安装
 
 ## 安装protobuf，并支持go

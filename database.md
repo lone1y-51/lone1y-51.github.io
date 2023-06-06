@@ -1,6 +1,8 @@
-# Database
+- [[#mongo|mongo]]
+	- [[#mongo#uri配置|uri配置]]
+- [[#redis|redis]]
+	- [[#redis#scan误区|scan误区]]
 
-[TOCf]
 
 # mongo
 
