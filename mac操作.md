@@ -13,6 +13,9 @@
 		- [[#修改brew为清华源#所有其他源列表|所有其他源列表]]
 	- [[#环境安装#重置为官方源|重置为官方源]]
 - [[#安装gitbook|安装gitbook]]
+- [[#备用命令|备用命令]]
+	- [[#备用命令#清理dns缓存|清理dns缓存]]
+
 # 环境安装
 
 ## 安装protobuf，并支持go
@@ -167,3 +170,7 @@ TypeError: cb.apply is not a function
 //fs.fstat = statFix(fs.fstat)
 //fs.lstat = statFix(fs.lstat)
 ```
+# 备用命令
+## 清理dns缓存
+
+`sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
